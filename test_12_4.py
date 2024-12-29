@@ -51,6 +51,7 @@ class RunnerTest(unittest.TestCase):
 
 
 
+
     def test_run(self):
         try:
             runner = Runner('Steve')
@@ -94,9 +95,10 @@ class Tournament:
         return finishers
 
 
-first = Runner('Вася', 10)
-second = Runner('Илья', 5)
-third = Runner('Арсен', 10)
+#first = Runner('Вася', 10)
+#second = Runner('Илья', 5)
+#third = Runner('Арсен', 10)
 #
-t = Tournament(101, first, second)
-print(t.start())
+#t = Tournament(101, first, second)
+#print(t.start())
+
